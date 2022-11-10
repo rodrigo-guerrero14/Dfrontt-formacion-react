@@ -3,17 +3,17 @@ import Navbar from "../../components/Navbar"
 import Footer from "../../components/Footer"
 import Main from "../../components/Main"
 
-function About(){
-  return(
+const Contact = () => {
+  return (
     <>
-    <Header title={"About"}/>
+      <Header title={"Contacto"} />
       <Navbar />
       <Main >
-        <p>About main</p>
+        <p>Contact main</p>
       </Main>
       <Footer />
     </>
   )
 }
 
-export default About
+export default Contact

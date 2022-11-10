@@ -1,0 +1,9 @@
+.cancelar, .confirmar{
+  padding: 15px 25px;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.confirmar{
+  background-color: green;
+}
